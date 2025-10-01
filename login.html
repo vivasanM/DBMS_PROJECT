@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Book Store - Login</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: url('https://images.unsplash.com/photo-1512820790803-83ca734da794') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-container {
+      width: 350px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+
+    .login-header {
+      background: #00a6e3;
+      color: white;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .login-header img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .login-body {
+      padding: 20px;
+    }
+
+    .login-body h2 {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+      display: block;
+    }
+
+    .forgot {
+      text-align: right;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+
+    .forgot a {
+      color: #d32f2f;
+      text-decoration: none;
+    }
+
+    .btn-login {
+      width: 100%;
+      padding: 12px;
+      background: #d32f2f;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn-login:hover {
+      background: #b71c1c;
+    }
+
+    .google-login {
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    .google-login img {
+      width: 30px;
+    }
+
+    .signup {
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .signup a {
+      color: #d32f2f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .terms {
+      text-align: center;
+      font-size: 12px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .terms a {
+      color: #d32f2f;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <div class="login-header">
+      <span>India's Largest Online Book Store</span>
+      <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" alt="cart">
+    </div>
+    <div class="login-body">
+      <h2>Log in</h2>
+      <form>
+        <input type="text" placeholder="Mobile/Email" required>
+        <input type="password" placeholder="Password" required>
+        <div class="forgot"><a href="#">Forgot your Password?</a></div>
+        <button type="submit" class="btn-login">Login</button>
+      </form>
+      
+      <div class="google-login">
+        <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" alt="Google">
+      </div>
+      <div class="signup">
+        New to Bookswagon? <a href="signup.html">Sign up</a>
+      </div>
+      <div class="terms">
+        By continuing, I agree to the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
