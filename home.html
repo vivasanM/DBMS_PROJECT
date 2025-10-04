@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookswagon Mockup - New Arrivals</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+<body>
+  
+    <header>
+       
+        <div class="top-bar">
+            <div class="logo">BOOKS<span>WAGON</span></div>
+            <div class="search-container">
+                <input type="text" placeholder="Search By Title, Author">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="account-links">
+                <i class="fas fa-user-circle"></i>
+                <span>My Account</span>
+                <i class="fas fa-caret-down"></i>
+            </div>
+        </div>
+   
+        </nav>
+    </header>
+
+    <main class="content-area">
+        
+        <h2 class="page-title">New Arrivals</h2>
+        
+
+
+        <div class="shop-container">
+            <aside class="sidebar">
+              
+                <h3>Top Categories</h3>
+                <ul class="categories-list">
+                    <li><a href="#"><i class="fas fa-circle category-dot"></i> All Categories</a></li>
+                    <li><a href="#"><i class="fas fa-circle category-dot"></i> Mathematics and Science Textbooks</a></li>
+                    <li><a href="#"><i class="fas fa-circle category-dot"></i> Medicine & Health Science textbooks</a></li>
+                </ul>
+            </aside>
+
+            <section class="product-grid-container">
+                <div class="product-grid">
+                    
+                    <div class="product-card">
+                        <div class="discount-badge">32%</div>
+                        <img src="https://images.unsplash.com/photo-1566915682737-3e97a7eed93b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dGhlJTIwY2hvbGFzfGVufDB8fDB8fHww" alt="12 Years: My Messed-up Love Story">
+                        <button class="quick-view-btn" onclick="handleQuickView('12 Years: My Messed-up Love Story')">QUICK VIEW</button>
+                        <p class="title">12 Years: My Messed-up Love Story</p>
+                        <p class="author">CHETAN BHA...</p>
+                        <span class="stars">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                        <p class="review">No Review Yet</p>
+                        <p class="price"><span class="current-price">₹273</span> <del>₹399</del></p>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="discount-badge">32%</div>
+                        <img src="https://images.unsplash.com/photo-1604778367959-4ca516d798a7?q=80&w=758&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="The Secret of Secrets">
+                        <p class="title">The Secret of Secrets</p>
+                        <p class="author">DAN BROWN</p>
+                        <span class="stars">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                        <p class="review">No Review Yet</p>
+                        <p class="price"><span class="current-price">₹1,019</span> <del>₹1,499</del></p>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="discount-badge">26%</div>
+                        <img src="https://media.istockphoto.com/id/1000158336/photo/chemistry-education-concept-open-books-with-text-chemistry-and-formulas-and-textbooks-flasks.webp?a=1&b=1&s=612x612&w=0&k=20&c=iJbpX-g1bfbBmgff3rHLvwXjqlpiipmgLYUuSuyq59w=" alt="Wiley's J.D. Lee Concise Inorganic Chemistry">
+                        <p class="title">Wiley's J.D. Lee Concise Inorganic Chemistry for JEE</p>
+                        <p class="author">SUDARSHAN GUHA</p>
+                        <span class="stars">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                        <p class="review">No Review Yet</p>
+                        <p class="price"><span class="current-price">₹769</span> <del>₹1,039</del></p>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="discount-badge">17%</div>
+                        <img src="https://plus.unsplash.com/premium_photo-1731951687922-1bb9d7722a49?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qk9PSyUyMElNQUdFfGVufDB8fDB8fHww" alt="Oswaal One for All Olympiads 1">
+                        <p class="title">Oswaal One for All Olympiads Previous Year Solved Papers</p>
+                        <p class="author">OSWAAL EDITORIAL BOARD</p>
+                        <span class="stars">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                        <p class="review">No Review Yet</p>
+                        <p class="price"><span class="current-price">₹414</span> <del>₹499</del></p>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="discount-badge">16%</div>
+                        <img src="https://plus.unsplash.com/premium_photo-1683141243517-5730698ff67f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Ym9vayUyMGNvdmVyfGVufDB8fDB8fHww" alt="Oswaal One for All Olympiads 2">
+                        <p class="title">Oswaal One for All Olympiads Previous Year Solved Papers</p>
+                        <p class="author">OSWAAL EDITORIAL BOARD</p>
+                        <span class="stars">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                        <p class="review">No Review Yet</p>
+                        <p class="price"><span class="current-price">₹377</span> <del>₹449</del></p>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="discount-badge">30%</div>
+                        <img src="https://images.unsplash.com/photo-1521123845560-14093637aa7d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJvb2slMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D" alt="Second Row Book">
+                        <p class="title">Second Row Book Title Example Long Title Here</p>
+                        <p class="author">PLACEHOLDER AUTHOR</p>
+                        <span class="stars">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                        <p class="review">No Review Yet</p>
+                        <p class="price"><span class="current-price">₹349</span> <del>₹499</del></p>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">20%</div>
+                        <img src="https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vayUyMGNvdmVyfGVufDB8fDB8fHww" alt="The Psychology of Money">
+                        <p class="title">The Psychology of Money</p>
+                        <p class="author">MORGAN HOUSEL</p>
+                        <span class="stars">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                        <p class="review">No Review Yet</p>
+                        <p class="price"><span class="current-price">₹599</span> <del>₹749</del></p>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="discount-badge">15%</div>
+                        <img src="https://images.unsplash.com/photo-1535398089889-dd807df1dfaa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ym9vayUyMGNvdmVyfGVufDB8fDB8fHww" alt="Atomic Habits">
+                        <p class="title">Atomic Habits</p>
+                        <p class="author">JAMES CLEAR</p>
+                        <span class="stars">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                        <p class="review">No Review Yet</p>
+                        <p class="price"><span class="current-price">₹899</span> <del>₹1,050</del></p>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1641154748135-8032a61a3f80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9vayUyMGNvdmVyfGVufDB8fDB8fHww" alt="Rich Dad Poor Dad">
+                        <p class="title">Rich Dad Poor Dad</p>
+                        <p class="author">ROBERT KIYOSAKI</p>
+                        <span class="stars">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                        <p class="review">No Review Yet</p>
+                        <p class="price"><span class="current-price">₹499</span> <del>₹599</del></p>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="discount-badge">18%</div>
+                        <img src="https://images.unsplash.com/photo-1629992101753-56d196c8aabb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Ym9vayUyMGNvdmVyfGVufDB8fDB8fHww" alt="Thinking, Fast and Slow">
+                        <p class="title">Thinking, Fast and Slow</p>
+                        <p class="author">DANIEL KAHNEMAN</p>
+                        <span class="stars">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                        <p class="review">No Review Yet</p>
+                        <p class="price"><span class="current-price">₹749</span> <del>₹899</del></p>
+                    </div>
+                    <div class="product-card">
+  <div class="discount-badge">18%</div>
+  <img src="https://images.unsplash.com/photo-1629992101753-56d196c8aabb?w=600&auto=format&fit=crop&q=60" alt="Thinking, Fast and Slow">
+  <p class="title">Thinking, Fast and Slow</p>
+  <p class="author">Daniel Kahneman</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹749</span> <del>₹899</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">25%</div>
+  <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&auto=format&fit=crop&q=60" alt="Atomic Habits">
+  <p class="title">Atomic Habits</p>
+  <p class="author">James Clear</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹599</span> <del>₹799</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">15%</div>
+  <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&auto=format&fit=crop&q=60" alt="The Power of Now">
+  <p class="title">The Power of Now</p>
+  <p class="author">Eckhart Tolle</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹499</span> <del>₹589</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">30%</div>
+  <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=600&auto=format&fit=crop&q=60" alt="Rich Dad Poor Dad">
+  <p class="title">Rich Dad Poor Dad</p>
+  <p class="author">Robert Kiyosaki</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹349</span> <del>₹499</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">22%</div>
+  <img src="https://images.unsplash.com/photo-1589998059171-988d887df646?w=600&auto=format&fit=crop&q=60" alt="The Subtle Art of Not Giving a F*ck">
+  <p class="title">The Subtle Art of Not Giving a F*ck</p>
+  <p class="author">Mark Manson</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹520</span> <del>₹669</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">20%</div>
+  <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=60" alt="Deep Work">
+  <p class="title">Deep Work</p>
+  <p class="author">Cal Newport</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹640</span> <del>₹799</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">28%</div>
+  <img src="https://images.unsplash.com/photo-1714146999236-f71ac8f4ae7f?q=80&w=767&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sapiens">
+  <p class="title">Sapiens: A Brief History of Humankind</p>
+  <p class="author">Yuval Noah Harari</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹899</span> <del>₹1249</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">12%</div>
+  <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600&auto=format&fit=crop&q=60" alt="Ikigai">
+  <p class="title">Ikigai: The Japanese Secret to a Long and Happy Life</p>
+  <p class="author">Héctor García & Francesc Miralles</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹440</span> <del>₹499</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">18%</div>
+  <img src="https://images.unsplash.com/photo-1591778967891-4c44dbb3e636?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9vayUyMGNvdmVyJTIwaW1hZ2VzJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Can't Hurt Me">
+  <p class="title">Can't Hurt Me</p>
+  <p class="author">David Goggins</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹699</span> <del>₹849</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">16%</div>
+  <img src="https://images.unsplash.com/photo-1714146999438-45e2c6cd4f7c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJvb2slMjBjb3ZlciUyMGltYWdlcyUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D   " alt="The Alchemist">
+  <p class="title">The Alchemist</p>
+  <p class="author">Paulo Coelho</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹379</span> <del>₹449</del></p>
+</div>
+    
+<div class="product-card">
+  <div class="discount-badge">20%</div>
+  <img src="https://media.istockphoto.com/id/590073366/photo/books-of-knowledge.jpg?s=612x612&w=0&k=20&c=h-uY-AOk62qTsKOxoa_vPp0BZPuYeDs_kV0bU4H0jaA=" alt="Educated">
+  <p class="title">Educated</p>
+  <p class="author">Tara Westover</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹450</span> <del>₹562</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">18%</div>
+  <img src="https://images.unsplash.com/photo-1502979932800-33d311b7ce56?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3BlbiUyMGJvb2t8ZW58MHx8MHx8fDA%3D" alt="The Midnight Library">
+  <p class="title">The Midnight Library</p>
+  <p class="author">Matt Haig</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹520</span> <del>₹635</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">22%</div>
+  <img src="data:image/jpeg;base64,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" alt="The Four Agreements">
+  <p class="title">The Four Agreements</p>
+  <p class="author">Don Miguel Ruiz</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹390</span> <del>₹500</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">25%</div>
+  <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=60" alt="The 7 Habits of Highly Effective People">
+  <p class="title">The 7 Habits of Highly Effective People</p>
+  <p class="author">Stephen R. Covey</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹600</span> <del>₹800</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">15%</div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdZm90ShHsc3CzVGl_HfHv8MCeLoBJU7_0OYSH0--7BNYimEYp4FTjcgM2692k7a48_vQ&usqp=CAU">
+  <p class="title">How to Win Friends and Influence People</p>
+  <p class="author">Dale Carnegie</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹420</span> <del>₹495</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">28%</div>
+  <img src="https://img.freepik.com/free-vector/minimalist-book-cover-template_23-2148899519.jpg?semt=ais_hybrid&w=740&q=80" alt="Becoming">
+  <p class="title">Becoming</p>
+  <p class="author">Michelle Obama</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹750</span> <del>₹1,050</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">17%</div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdPuudTFf4kU963Jud5zc20Q22hEoigli4KmNDnArROH-InOJEMBblzuP-gq8MaK7iAOk&usqp=CAU" alt="The Untethered Soul">
+  <p class="title">The Untethered Soul</p>
+  <p class="author">Michael A. Singer</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹470</span> <del>₹565</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">20%</div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtQor5KZA4FhCiXdii9zJbZ2Imj6r7-iIiuFeNg6BA-JwOHA1lSmzL2-pOegzr6rIoxQ&usqp=CAU" alt="Grit">
+  <p class="title">Grit</p>
+  <p class="author">Angela Duckworth</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹520</span> <del>₹650</del></p>
+</div>
+
+<div class="product-card">
+  <div class="discount-badge">23%</div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaBzQTENdzKygDf_WKNKG6lqXwCpomYn11aNQtftzhoZ_jlXbw9qT_kPUpCMu9P4zE6dM&usqp=CAU" alt="Meditations">
+  <p class="title">Meditations</p>
+  <p class="author">Marcus Aurelius</p>
+  <span class="stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+  </span>
+  <p class="review">No Review Yet</p>
+  <p class="price"><span class="current-price">₹380</span> <del>₹495</del></p>
+</div>
+
+                </div>
+            </section>
+        </div>
+    </main>
+    
+   
+<script src="script.js"></script>
+</body>
+</html>
